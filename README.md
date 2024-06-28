@@ -1,12 +1,12 @@
-# QR Code Parser Web App
+# Promptpay QR Code Parser Web App
 
-This is a simple web application that allows users to upload or drag-and-drop a QR code image, decode it, and display the parsed PPInfo details in a table.
+This is a simple web application that allows users to upload or drag-and-drop a QR code image, decode it, and display the parsed Promptpay details in a table.
 
 ## Features
 
 - Drag and drop QR code image upload
 - Display decoded QR code text
-- Extract and display PPInfo details
+- Extract and display Promptpay details
 - User-friendly interface with highlighted drag-and-drop area
 
 ## Installation
@@ -22,7 +22,7 @@ This is a simple web application that allows users to upload or drag-and-drop a 
 
 1. **Upload a QR Code Image**: Click on the file input to select an image or drag and drop the image into the highlighted area.
 2. **View Decoded Text**: The decoded text from the QR code will be displayed under "Decoded QR Code Text".
-3. **View PPInfo Details**: The extracted PPInfo details will be displayed in a table format under "PPInfo Details".
+3. **View Promptpay Details**: The extracted PPInfo details will be displayed in a table format under "PPInfo Details".
 
 ## Project Structure
 
@@ -35,7 +35,6 @@ This is a simple web application that allows users to upload or drag-and-drop a 
 
 - **jsQR**: A pure JavaScript QR code reading library used for decoding QR codes.
 
-## Screenshots
 
 ![Screenshot](screenshot.png)
 
