@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Parser</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container" id="drop-area">
+        <h1>QR Code Parser</h1>
+        <input type="file" id="fileInput" accept="image/*">
+        <div class="content">
+            <h2>Decoded QR Code Text:</h2>
+            <pre id="qrText"></pre>
+        </div>
+        <div class="content">
+            <h2>PPInfo Details:</h2>
+            <table id="ppInfoTable">
+                <tr>
+                    <th>Merchant Name</th>
+                    <th>Account Type</th>
+                    <th>Merchant ID</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td id="merchantName"></td>
+                    <td id="accountType"></td>
+                    <td id="merchantId"></td>
+                    <td id="amount"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
